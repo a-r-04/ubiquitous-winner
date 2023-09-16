@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test Reading Speed</title>
+  </head>
+  <body>
+    <section>
+      <div class="container" id="contain">
+        <h1>Test your Reading Speed</h1>
+
+        <button id="start-btn" class="btn">Begin</button>
+
+        <textarea name="" id="text" placeholder=""></textarea>
+        <button id="stop-btn" class="btn">Stop</button>
+      </div>
+      <span class="overlay"></span>
+      <div class="result">
+        <p>
+          you read <span id="word-count">-</span> words in
+          <span id="time">-</span> seconds <br />
+          your reading speed is <span id="wpm">-</span> words per minute
+        </p>
+        <button id="close-btn" class="btn">Ok, close</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
